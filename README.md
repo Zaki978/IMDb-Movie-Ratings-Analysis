@@ -10,7 +10,6 @@ This project is implemented in Python, using Jupyter Notebook. To set up and run
 
 1. **Get the Data**: 
    - Visit IMDb Non-Commercial Datasets: [IMDb Datasets](https://developer.imdb.com/non-commercial-datasets/)
-      - Alternatively, use the provided dataset in the `Raw data` folder.
    - Download the title.basics.tsv.gz and the title.ratings.tsv.gz files.
 
 2. **Clone the Repository**: 
