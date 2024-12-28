@@ -1,8 +1,8 @@
-# IMDB Movie Ratings Analysis Project 
+# IMDb Movie Ratings Analysis Project 
 
 ## Overview
 
-This project aims to analyze IMDB movie ratings for films released over the past 100 years, from 1920 to 2023. The goal is to uncover trends, patterns, and insights from the data, providing a comprehensive understanding of how movie ratings have evolved over the century. Key area of focus of the analysis is on how movie ratings differ across for genres during different release periods. 
+This project aims to analyze IMDb movie ratings for films released over the past 100 years, from 1920 to 2023. The goal is to uncover trends, patterns, and insights from the data, providing a comprehensive understanding of how movie ratings have evolved over the century. Key area of focus of the analysis is on how movie ratings differ across for genres during different release periods. 
 
 ## Setup and Installation
 
