@@ -2,7 +2,7 @@
 
 ## Overview
 
-The aim of this project is to analyze IMDb movie ratings for films released over the past 100 years, from 1920 to 2023. The goal is to uncover trends, patterns, and insights from the data, providing a comprehensive understanding of how movie ratings have evolved over the century. Key area of focus of the analysis is on how movie ratings differ across genres during different release periods. 
+The aim of this project is to analyze IMDb movie ratings for films released over the past 100 years, from 1920 to 2023, using python for data manipulation and Tableau for data visualization. The goal is to uncover trends, patterns, and insights from the data, providing a comprehensive understanding of how movie ratings have evolved over the century. Key area of focus of the analysis is on how movie ratings differ across genres during different release periods. 
 
 ### Technologies Used
 - **Python**: Data manipulation with **pandas** and visualization with **matplotlib**
@@ -61,7 +61,7 @@ The data cleaning process involves:
 
 ## Exporting the data
 
-The final cleaned and transformed data is exported to a CSV file called 'IMDb_movie_ratingsNEW.csv' for further analysis and visualization in Tableau in the file called 'Movie Rating Visualization vFinal'. This allows for more complex visualizations and a more interactive exploration of the data.
+The final cleaned and transformed data is exported to a CSV file called 'IMDb_movie_ratingsNEW.csv' for further analysis and visualization in Tableau in the file called 'Movie Rating Visualization vFinal'. This allows for more complex visualizations and a more interactive exploration of the data available on my [Tableau Public Profile](https://public.tableau.com/app/profile/zaki.bouaoudia4587/vizzes).
 
 ### Author
 
