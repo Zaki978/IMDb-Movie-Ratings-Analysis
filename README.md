@@ -32,17 +32,16 @@ The primary data source for this project is the IMDB database, which provides co
 
 ## Key Findings
 
-- **Distribution of Average Ratings**: Most movies fall in the 5.5 to 7 rating rating indicating that most movies are perceived as average to slightly above average in quality by IMDb's userbase. 
-- **Downwards Trend in Average Ratings**: overall movie ratings decreased over time, being right below an average rating of 6 out of 10 for the past 2 decades, although slightly rebouding in the most recent three years
-- **Number of Movies Released and Ratings Giving** have substantial increased over time but both declined harshly during COVID-19.
-- **High correlation** between average rating of genres compared to the overall average over time. Thus, when the overall average rating increases or decreases, the average rating for individual genres tends to move in the same direction. This suggests that ratings across genres are strongly influenced by similar factors influencing the overall trend.
+- **Distribution of Average Ratings**: Most movies fall in the 5.5 to 7 rating range indicating that most movies are perceived as average to slightly above average in quality by IMDb's userbase. 
+- **Downwards Trend in Average Ratings**: Overall movie ratings have declined over the release period, remaining just below an average of 6 out of 10 for the past two decades, with a slight rebound in the last three years. One possible explanation for this downward trend is rating bias, as newer movies are evaluated by larger, more diverse audiences, resulting in greater variability and potentially lower average ratings.
+- **Number of Movies Released and Ratings** have substantially increased over time but both declined harshly during COVID-19.
+- **High correlation** between the average rating of genres compared to the overall average over time. Thus, when the overall average rating increases or decreases, the average rating for individual genres tends to move in the same direction. This suggests that ratings across genres are strongly influenced by similar factors influencing the overall trend.
 - **Horror, Sci-fi and Thriller** genres had the worst average ratings in the dataset across all periods of time.
 - **News, Documentary and Biography** genres had the best average ratings in the dataset across all periods of time.
 - **Drama (53%) and Comedy (32%)** genres together dominate the content on IMDb, reflecting a high concentration of movies in these two genres compared to others.
 - **Average Movie Runtime** has steadily increased over time, being generally above 100 mins since 1960.
 - **The Shawshank Redemption** was the most highly rated movie in the dataset (considering movies with at least 100k reviews), with an average rating of 9.3.
-- **The Dark Night** was the most rated movie in the dataset with a total of 8.58M ratings and an average rating of 9.0.
-
+- **The Dark Night** was the most rated movie in the dataset, with a total of 8.58M ratings and an average rating of 9.0.
 
 ## Data Cleaning, Transformation, and Manipulation
 
