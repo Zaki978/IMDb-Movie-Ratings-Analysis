@@ -4,6 +4,11 @@
 
 The aim of this project is to analyze IMDb movie ratings for films released over the past 100 years, from 1920 to 2023. The goal is to uncover trends, patterns, and insights from the data, providing a comprehensive understanding of how movie ratings have evolved over the century. Key area of focus of the analysis is on how movie ratings differ across genres during different release periods. 
 
+### Technologies Used
+- **Python**: Data manipulation with **pandas** and visualization with **matplotlib**
+- **Jupyter Notebook**: Development environment
+- **Tableau**: Creating charts and Dashboards
+
 ## Setup and Installation
 
 This project is implemented in Python, using Jupyter Notebook. To set up and run the project, you will need to have Python and Jupyter Notebook installed on your machine. To set up the project environment, follow these steps:
