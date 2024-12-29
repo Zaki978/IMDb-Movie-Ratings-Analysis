@@ -7,7 +7,7 @@ The aim of this project is to analyze IMDb movie ratings for films released over
 ### Technologies Used
 - **Python**: Data manipulation with **pandas** and visualization with **matplotlib**
 - **Jupyter Notebook**: Development environment
-- **Tableau**: Creating charts and Dashboards
+- **Tableau**: Creating charts and dashboards
 
 ## Setup and Installation
 
