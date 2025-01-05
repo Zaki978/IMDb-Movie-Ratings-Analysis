@@ -65,6 +65,9 @@ The data cleaning process involves:
 
 The final cleaned and transformed data is exported to a CSV file called 'IMDb_movie_ratingsNEW.csv' for further analysis and visualization in Tableau in the file called 'Movie Rating Visualization vFinal'. This allows for more complex visualizations and a more interactive exploration of the data available on my [Tableau Public Profile](https://public.tableau.com/app/profile/zaki.bouaoudia4587/vizzes).
 
+## Assumptions and Caveats
+
+
 ### Author
 
 Zaki Bouaoudia
