@@ -66,7 +66,8 @@ big picture of findings summarized
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Genre%20Heatmap%20Ratings.png" alt="Heatmap of Genre Ratings" width="900" height="400">
 
 - **Correlation Between Genres and Rating**: The chart below highlights a strong correlation between the average ratings of certain genres and the overall average rating over time (the black dotted line). Notably, drama, comedy, and action had correlations of 0.91, 0.96, and 0.91, respectively, with the overall average. This indicates that as the overall average rating rises or falls, the average ratings for these genres tend to follow a similar pattern. This suggests that genre ratings are strongly influenced by common factors driving the overall trend.
-  - On the other hand, Sci-fi had a considerably lower correlation of 0.64, likely due to higher volatility in ratings. 
+  - On the other hand, these high correlations might also indicate that these three genres are driving the overall trend especially since these three genres make up the majority of movies on IMDb. 
+  - Sci-fi had a considerably lower correlation of 0.64, likely due to higher volatility in ratings. 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Genre%20Rating%20Over%20Time%202.png" alt="Average Rating by Genre Over Time" width="700" height="350">
 
 - **Number of Movies Released and Ratings**: substantially increased over time, but both declined harshly during COVID-19.
