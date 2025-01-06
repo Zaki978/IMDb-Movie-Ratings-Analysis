@@ -23,47 +23,21 @@ The main insights concentrate on the following subjects:
 
 ## Dataset Structure
 IMDb has a subset of its data accessible to customers for personal and non-commercial use [avalaible here](https://developer.imdb.com/non-commercial-datasets/). 
-This project utilizes two tables from the online database: title.basics, title.ratings with a total row count of 12.72M records. A description of each table is as follows:
+This project utilizes two tables from IMDb's online database: title.basics, title.ratings with a total row count of 12.72M records. A description of each table is as follows:
 
-<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/IMDb%20Project%20Table%20Schema.png" alt="IMDb Table Schemas" width="650" height="300">
-
+<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/IMDb%20Project%20Table%20Schema.png" alt="IMDb Table Schemas" width="600" height="300">
 
 ## Data Cleaning, Transformation, and Manipulation
 
-The data cleaning process involves:
+Prior to starting my investigation, a variety of data cleaning, transformation and manipulation processes were conducted. These steps were essential in ensuring that the data was accurate, consistent, relevant, and structured appropriately for analysis and improved the reliability of the results.
 
 - **Renaming columns** for clarity.
 - **Converting columns** to the appropriate data types, e.g numerical data types and strings. 
 - **Handling missing values** by either filling them with appropriate values or dropping the rows/columns with missing values.
+- **Merging tables** 
 - **Filtering the data** to include only movies from the past 100 years and with a minimum number of ratings.
 - **Splitting the genres column** into multiple rows to allow for genre-level analysis.
 - **Creating new columns** for further analysis, such as a column indicating the decade in which the movie was released.
-
-## Setup and Installation
-
-This project is implemented in Python, using Jupyter Notebook. To set up and run the project, you will need to have Python and Jupyter Notebook installed on your machine. To set up the project environment, follow these steps:
-
-1. **Get the Data**: 
-   - Visit IMDb Non-Commercial Datasets: [IMDb Datasets](https://developer.imdb.com/non-commercial-datasets/)
-   - Download the title.basics.tsv.gz and the title.ratings.tsv.gz files.
-
-2. **Clone the Repository**: 
-   - Open GitHub Desktop and sign in with your GitHub account.
-   - Click on File > Clone Repository.
-   - In the URL tab, paste the URL of the repository you want to clone.
-
-3. **Run Jupyter Notebook**
-   - Run the Jupyter notebook called 'Movie Rating Analysis Project V2.ipynb'. 
-
-## Data Sources
-
-The primary data source for this project is the IMDB database, which provides comprehensive information on movies, including ratings, release dates, genres, and more.
-
-## Key Areas of Exploration
-
-- **Trends in Movie Ratings**: Analyze how movie ratings change over the decades in which movies were produced.
-- **Genre Analysis**: Explore which genres have the highest and lowest average ratings, and identify which genres have gained or lost popularity over time.
-- **Correlation Analysis**:
 - 
 ## Key Findings
 
