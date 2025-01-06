@@ -2,9 +2,14 @@
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/imdb-top-50%20movies%20photo.png" alt="mdb-top-50 movies photo" width="600" height="300">
 
-## Overview
+## Project Overview
+
+IMDb is one of the world's most popular online databases for information on movies, TV shows, and celebrities. The IMDb platform allows users to view cast, production crew and personal biographies, plot summaries and the ability to rate movies on a scale of 1 to 10. 
 
 The aim of this project is to analyze IMDb movie ratings for films released over the past 100 years, from 1920 to 2023, using **Python** for data manipulation and **Tableau** for data visualization. The goal is to uncover trends, patterns, and insights from the data, providing a comprehensive understanding of how movie ratings have evolved over the century. Key area of focus of the analysis is on how movie ratings differ across genres during different release periods. 
+
+The main insights concentrate on the following subjects: 
+
 
 ### Technologies Used
 - **Python**: Data manipulation with **pandas** and visualization with **matplotlib**
