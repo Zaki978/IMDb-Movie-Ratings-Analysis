@@ -76,7 +76,7 @@ big picture of findings summarized
 
 - **Number of Movies on IMDb Broken Down by Genre**: *Drama (53%) and Comedy (32%)* genres together dominate the content on IMDb, reflecting a high concentration of movies in these two genres compared to others.
 
-<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/IMDb%20Movie%20Genre%20Breakdown.png" alt="IMDb Movie Count Broken down by Genre" width="700" height="700">
+<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/IMDb%20Movie%20Genre%20Breakdown.png" alt="IMDb Movie Count Broken down by Genre" width="650" height="650">
 
 
 - Other Observations
