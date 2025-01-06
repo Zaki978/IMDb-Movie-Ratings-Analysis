@@ -25,7 +25,7 @@ The main insights concentrate on the following subjects:
 IMDb has a subset of its data accessible to customers for personal and non-commercial use [avalaible here](https://developer.imdb.com/non-commercial-datasets/). 
 This project utilizes two tables from the online database: title.basics, title.ratings with a total row count of 12.72M records. A description of each table is as follows:
 
-<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/IMDb%20Project%20Table%20Schema.png" alt="IMDb Table Schemas" width="600" height="250">
+<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/IMDb%20Project%20Table%20Schema.png" alt="IMDb Table Schemas" width="550" height="300">
 
 
 ## Data Cleaning, Transformation, and Manipulation
