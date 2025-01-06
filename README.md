@@ -22,8 +22,10 @@ The main insights concentrate on the following subjects:
 - **Jupyter Notebook**: Development environment
 
 ## Dataset Structure
-IMDb has a subset of its data accessible to customers for personal and non-commercial use [avalaible here](https://developer.imdb.com/non-commercial-datasets/)
-The  main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
+IMDb has a subset of its data accessible to customers for personal and non-commercial use [avalaible here](https://developer.imdb.com/non-commercial-datasets/). 
+This project utilizes two tables from the online database: title.basics, title.ratings with a total row count of 12.72M records. A description of each table is as follows:
+
+![IMDb Table Schemas](https://github.com/Zaki978/Project-Portfolio/blob/main/assets/IMDb%20Project%20Table%20Schema.png)
 
 
 
