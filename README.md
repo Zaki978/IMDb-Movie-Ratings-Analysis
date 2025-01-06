@@ -32,8 +32,10 @@ This project utilizes two tables from IMDb's online database: `title.basics`, `t
 Prior to starting my investigation, a variety of data cleaning, transformation and manipulation processes were conducted which can be viewed on the [Jupyter Notebook file](https://github.com/Zaki978/IMDb-Movie-Ratings-Analysis/blob/main/Movie%20Rating%20Analysis%20Project%20V2.ipynb). These steps were essential in ensuring that the data was accurate, consistent, relevant, and structured appropriately for analysis and improved the reliability of the results.
 
 - **Renaming columns** to improve clarity, such as changing 'Start Year' to 'Release Year'
+- **Removing columns** to exclude unnecessary information such as dropping the 'Original Title' and 'End Year' columns
 - **Converting columns** to the appropriate data types, such as reformatting columns in the `titles.basic` table from object type to numerical, string, and boolean types
 - **Handling missing values** by either filling them with appropriate values or dropping the rows/columns with missing values.
+  - removed records with null 'Release Year' and 'Title Name' as these were crucial fields for analysis and checked for null values in data frame using df.isnull().sum() method 
 - **Merging tables** merged the 'filtered_movies' and 'imdb_ratings' DataFrames using 'Title ID' to create a comprehensive dataframe for analysis
 - **Filtering the data** to include only movies from the past 100 years and with a minimum number of ratings.
 - **Splitting the genres column** into multiple rows to allow for genre-level analysis.
