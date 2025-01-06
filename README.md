@@ -4,16 +4,16 @@
 
 ## Project Overview
 
-IMDb is one of the world's most popular online databases for information on movies, TV shows, and celebrities. The IMDb platform allows users to view cast, production crew, biographies, plot summaries and the ability to rate movies on a scale of 1 to 10. 
+IMDb is one of the world's most popular online databases for information on movies, TV shows, and celebrities. The IMDb platform allows users to view details on casts, production crews, biographies, plot summaries and the ability to rate movies on a scale of 1 to 10. 
 
 The aim of this project is to analyze IMDb movie ratings for films released over the past 100 years, from 1920 to 2023, using **Python** for data manipulation and **Tableau** for data visualization. The goal is to uncover trends, patterns, and insights from the data, providing a comprehensive understanding of how movie ratings have evolved over the century. Key area of focus of the analysis is on how movie ratings differ across genres during different release periods. 
 
 The main insights concentrate on the following subjects: 
-- **Distribution of Ratings**:
-- **Trends in Movie Ratings Over Time**:
-- **Genre Popularity Analysis**:
-- **Correlation Between Genres and Ratings**: calculates the correlation of ratings for each genre compared to the overall rating average over time. This helps to understand how closely the ratings for each genre follow the overall trend in movie ratings.
-- **Impact of Number of Ratings on Movie Ratings**:
+- **Distribution of Ratings**: visualized the distribution of ratings over 0.25 ranges of ratings. 
+- **Trends in Movie Ratings Over Time**: analyzed how the average movie rating has evolved over the past century. This provides insights into the changing tastes and standards of audiences over the movie release period.
+- **Genre Popularity Analysis**: Determined average rating for each genre, identifying which genres have gained or lost popularity over release periods. This can help understand shifts in genre preferences among audiences.
+- **Correlation Between Genres and Ratings**: calculated the correlation of ratings for each genre compared to the overall rating average over time to understand how closely the ratings for each genre follow the overall trend.
+- **Number of Movie Ratings**: ranked the most rated titles, illustrating how the increase in rating hover time is tied to the number of movies released over time and explained the impact of filtering the data to include only movies with a minimum number of ratings. 
 - **Number of Movies on IMDb Broken Down by Genre**:
 
 ### Technologies Used
