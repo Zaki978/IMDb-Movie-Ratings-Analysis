@@ -35,9 +35,11 @@ Prior to starting my investigation, a variety of data cleaning, transformation a
 - **Removing columns** to exclude unnecessary information such as dropping the 'Original Title' and 'End Year' columns
 - **Converting columns** to the appropriate data types, such as reformatting columns in the `titles.basic` table from object type to numerical, string, and boolean types
 - **Handling missing values** by either filling them with appropriate values or dropping the rows/columns with missing values.
-  - removed records with null 'Release Year' and 'Title Name' as these were crucial fields for analysis and checked for null values in data frame using df.isnull().sum() method 
-- **Merging tables** merged the 'filtered_movies' and 'imdb_ratings' DataFrames using 'Title ID' to create a comprehensive dataframe for analysis
+  - Removed records with null values in the 'Release Year' and 'Title Name' columns as these were crucial fields for analysis
+  - Checked for null values in data frame using the df.isnull().sum() method
 - **Filtering the data** to include only movies from the past 100 years and with a minimum number of ratings.
+  - also filtered out rows where 'Genres' column had '\N'
+- **Merging tables** merged the 'filtered_movies' and 'imdb_ratings' DataFrames using 'Title ID' to create a comprehensive dataframe for analysis
 - **Splitting the genres column** into multiple rows to allow for genre-level analysis.
 - **Creating new columns** deeper analysis, such as a decade column, to minimize short-term fluctuations from individual years and emphasize meaningful, actionable trends
 
