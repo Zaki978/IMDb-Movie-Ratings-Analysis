@@ -18,8 +18,8 @@ The main insights concentrate on the following subjects:
 
 ### Technologies Used
 - **Python**: Data manipulation with **pandas** and visualization with **matplotlib**
+- **Tableau**: Creating charts, dashboards and stories
 - **Jupyter Notebook**: Development environment
-- **Tableau**: Creating charts and dashboards
 
 ## Dataset Structure
 
