@@ -52,6 +52,10 @@ Prior to starting my investigation, a variety of data cleaning, transformation a
 ## Overview of Findings
 
 big picture of findings summarized
+<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20by%20Genre.png" alt="Distribution of Ratings Histogram" width="500" height="600">
+
+
+
 
 ## Insights Deep Dive
 
