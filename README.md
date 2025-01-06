@@ -59,7 +59,7 @@ Prior to starting my investigation, a variety of data cleaning, transformation a
   - *Horror, Sci-fi and Thriller* genres had the worst average ratings in the dataset across all periods of time.
   - *News, Documentary and Biography* genres had the best average ratings in the dataset across all periods of time.
   
-<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Genre%20Heatmap%20Ratings.png" alt="Heatmap of Genre Ratings" width="600" height="400">
+<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Genre%20Heatmap%20Ratings.png" alt="Heatmap of Genre Ratings" width="900" height="400">
 
 - **Correlation Between Genres and Rating**: High correlation between the average rating of genres compared to the overall average over time. Thus, when the overall average rating increases or decreases, the average rating for individual genres tends to move in the same direction. This suggests that ratings across genres are strongly influenced by similar factors influencing the overall trend.
 - **Number of Movie Ratings**:
