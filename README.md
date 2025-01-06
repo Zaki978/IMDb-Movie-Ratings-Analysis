@@ -37,12 +37,15 @@ Prior to starting my investigation, a variety of data cleaning, transformation a
 - **Handling missing values** by either filling them with NAN values or dropping the rows/columns with missing values.
   - Checked for null values in data frame using the df.isnull().sum() method
   - Removed records with null values in the 'Release Year' and 'Title Name' columns as these were crucial fields for analysis
-  - Converted values year values that appeared in the 'Is Adult' column to null using a mapping dictionary
+  - Converted displaced year values that appeared in the 'Is Adult' column to null using a mapping dictionary
 - **Filtering the data** to include only movies from the past 100 years and with a minimum number of ratings of 278.
-  - also filtered out rows where 'Genres' column had '\N'
-- **Merging tables** merged the 'filtered_movies' and 'imdb_ratings' DataFrames using 'Title ID' to create a comprehensive dataframe for analysis
+  - Included only rows where the Title Type column has values 'movie' or 'tvMovie'
+  - Removed rows where 'Genres' column had '\N' values
+  - Filtered movies by setting a minimum threshold for the number of ratings per movie at the top 75th percentile, equating to 278 ratings to avoid noise and improve Data Reliability
+- **Merging tables** by performing an inner join on the filtered_movies and imdb_ratings DataFrames using the 'Title ID' column to create a unified DataFrame for analysis.
 - **Splitting the genres column** into multiple rows to allow for genre-level analysis.
 - **Creating new columns** deeper analysis, such as a decade column, to minimize short-term fluctuations from individual years and emphasize meaningful, actionable trends
+  - Created a Movie Genre ID to uniquely identify genres associated with each title
 
 ## Key Findings
 
