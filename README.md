@@ -22,6 +22,9 @@ The main insights concentrate on the following subjects:
 - **Jupyter Notebook**: Development environment
 
 ## Dataset Structure
+IMDb has a subset of its data accessible to customers for personal and non-commercial use [avalaible here](https://developer.imdb.com/non-commercial-datasets/)
+The  main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
+
 
 
 ## Data Cleaning, Transformation, and Manipulation
