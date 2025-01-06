@@ -47,7 +47,11 @@ Prior to starting my investigation, a variety of data cleaning, transformation a
 - **Creating new columns** deeper analysis, such as a 'Decade' column, to minimize short-term fluctuations from individual years and emphasize meaningful, actionable trends
   - Created a Movie Genre ID to uniquely identify genres associated with each title
 
-## Key Findings
+## Overview of Findings
+
+big picture of findings summarized
+
+## Insights Deep Dive
 
 - **Distribution of Average Ratings**: The majority of movies have ratings between 5.5 and 7, with the 6.5 to 6.75 interval receiving the highest number of ratings (137k). This suggests that most movies are viewed as average to slightly above average in quality by IMDb's user base, with extreme ratings being uncommon
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Distribution%20of%20ratings%20Histogram.png" alt="Distribution of Ratings Histogram" width="600" height="300">
@@ -66,6 +70,9 @@ Prior to starting my investigation, a variety of data cleaning, transformation a
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Genre%20Rating%20Over%20Time%202.png" alt="Average Rating by Genre Over Time" width="700" height="350">
 
 - **Number of Movies Released and Ratings**: substantially increased over time, but both declined harshly during COVID-19.
+
+<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Movie%20Ratings%20vs%20Release%20Year.png" alt="Movie Ratings vs Movies Released" width="750" height="400">
+
 
 - **Number of Movies on IMDb Broken Down by Genre**: *Drama (53%) and Comedy (32%)* genres together dominate the content on IMDb, reflecting a high concentration of movies in these two genres compared to others.
 
