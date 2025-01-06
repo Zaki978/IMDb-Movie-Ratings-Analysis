@@ -53,7 +53,7 @@ Prior to starting my investigation, a variety of data cleaning, transformation a
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Distribution%20of%20ratings%20Histogram.png" alt="Distribution of Ratings Histogram" width="600" height="300">
 
 - **Trends in Movie Ratings Over Time**: Overall movie ratings have declined over the release period, remaining just below an average of 6 out of 10 for the past two decades, with a slight rebound in the last three years. One possible explanation for this downward trend is rating bias, as newer movies are evaluated by larger, more diverse audiences, resulting in greater variability and potentially lower average ratings.
-<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20Over%20Time.png" alt="Distribution of Ratings Histogram" width="900" height="600">
+<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20Over%20Time.png" alt="Distribution of Ratings Histogram" width="900" height="550">
 - **Genre Popularity Analysis**: 
 - **Correlation Between Genres and Rating**: High correlation between the average rating of genres compared to the overall average over time. Thus, when the overall average rating increases or decreases, the average rating for individual genres tends to move in the same direction. This suggests that ratings across genres are strongly influenced by similar factors influencing the overall trend.
 - **Number of Movie Ratings**: 
