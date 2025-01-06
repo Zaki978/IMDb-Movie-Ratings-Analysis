@@ -51,7 +51,8 @@ Prior to starting my investigation, a variety of data cleaning, transformation a
 
 ## Overview of Findings
 
-big picture of findings summarized
+Successfully found average ratings for each genre in the dataset. 
+
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20by%20Genre.png" alt="Distribution of Ratings Histogram" width="700" height="600">
 
 
