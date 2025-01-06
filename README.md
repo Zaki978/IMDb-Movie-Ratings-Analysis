@@ -29,7 +29,7 @@ This project utilizes two tables from IMDb's online database: title.basics, titl
 
 ## Data Cleaning, Transformation, and Manipulation
 
-Prior to starting my investigation, a variety of data cleaning, transformation and manipulation processes were conducted which can be viewed on the [Jupyter Notebook file]. These steps were essential in ensuring that the data was accurate, consistent, relevant, and structured appropriately for analysis and improved the reliability of the results.
+Prior to starting my investigation, a variety of data cleaning, transformation and manipulation processes were conducted which can be viewed on the [Jupyter Notebook file](https://github.com/Zaki978/IMDb-Movie-Ratings-Analysis/blob/main/Movie%20Rating%20Analysis%20Project%20V2.ipynb). These steps were essential in ensuring that the data was accurate, consistent, relevant, and structured appropriately for analysis and improved the reliability of the results.
 
 - **Renaming columns** for clarity.
 - **Converting columns** to the appropriate data types, e.g numerical data types and strings. 
