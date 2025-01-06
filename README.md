@@ -16,6 +16,8 @@ The main insights concentrate on the following subjects:
 - **Number of Movie Ratings**: Ranked the most rated movies and illustrated the growth in rating activity over time, linking it to the increase in movie releases and demonstrating the effect of filtering data by minimum rating counts 
 - **Number of Movies on IMDb Broken Down by Genre**: Provided a breakdown of the number of movies available on IMDb by genre for a clearer view of representation
 
+Advanced visualizations and interactive exploration of the data available on my [Tableau Public Profile](https://public.tableau.com/app/profile/zaki.bouaoudia4587/vizzes).
+
 ### Technologies Used
 - **Python**: Data manipulation with **pandas** and visualization with **matplotlib**
 - **Tableau**: Creating charts, dashboards and stories
@@ -87,10 +89,9 @@ big picture of findings summarized
 
 ## Exporting the data
 
-The final cleaned and transformed data is exported to a CSV file called 'IMDb_movie_ratingsNEW.csv' for further analysis and visualization in Tableau in the file called 'Movie Rating Visualization vFinal'. This allows for more complex visualizations and a more interactive exploration of the data available on my [Tableau Public Profile](https://public.tableau.com/app/profile/zaki.bouaoudia4587/vizzes).
-
 ## Assumptions and Caveats
-
+- assumed that taking the 75th percentile was the most reasonable choice
+- 
 
 ### Author
 
