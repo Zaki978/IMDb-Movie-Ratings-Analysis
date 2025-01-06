@@ -31,14 +31,14 @@ This project utilizes two tables from IMDb's online database: title.basics, titl
 
 Prior to starting my investigation, a variety of data cleaning, transformation and manipulation processes were conducted which can be viewed on the [Jupyter Notebook file](https://github.com/Zaki978/IMDb-Movie-Ratings-Analysis/blob/main/Movie%20Rating%20Analysis%20Project%20V2.ipynb). These steps were essential in ensuring that the data was accurate, consistent, relevant, and structured appropriately for analysis and improved the reliability of the results.
 
-- **Renaming columns** for clarity.
-- **Converting columns** to the appropriate data types, e.g numerical data types and strings. 
+- **Renaming columns** for clarity. E.g 'Start Year' to 'Release Year'
+- **Converting columns** to the appropriate data types, e.g numerical data types and strings 
 - **Handling missing values** by either filling them with appropriate values or dropping the rows/columns with missing values.
-- **Merging tables** 
+- **Merging tables** merged the 'filtered_movies' and 'imdb_ratings' DataFrames using 'Title ID' to create a comprehensive dataframe for analysis
 - **Filtering the data** to include only movies from the past 100 years and with a minimum number of ratings.
 - **Splitting the genres column** into multiple rows to allow for genre-level analysis.
-- **Creating new columns** for further analysis, such as a column indicating the decade in which the movie was released.
-- 
+- **Creating new columns** deeper analysis, such as a decade column, to minimize short-term fluctuations from individual years and emphasize meaningful, actionable trends
+
 ## Key Findings
 
 - **Distribution of Average Ratings**: Most movies fall in the 5.5 to 7 rating range indicating that most movies are perceived as average to slightly above average in quality by IMDb's userbase. 
