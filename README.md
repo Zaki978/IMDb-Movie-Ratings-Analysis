@@ -64,22 +64,18 @@ Prior to starting my investigation, a variety of data cleaning, transformation a
 - **Correlation Between Genres and Rating**: The chart below highlights a strong correlation between the average ratings of certain genres and the overall average rating over time (the black dotted line). Notably, drama, comedy, and action had correlations of 0.91, 0.96, and 0.91, respectively, with the overall average. This indicates that as the overall average rating rises or falls, the average ratings for these genres tend to follow a similar pattern. This suggests that genre ratings are strongly influenced by common factors driving the overall trend.
   - On the other hand, Sci-fi had a considerably lower correlation of 0.64, likely due to higher volatility in ratings. 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Genre%20Rating%20Over%20Time%202.png" alt="Average Rating by Genre Over Time" width="700" height="350">
-- 
-- **Number of Movie Ratings**:
-- 
-- **Number of Movies on IMDb Broken Down by Genre**:
+
+- **Number of Movies Released and Ratings**: substantially increased over time, but both declined harshly during COVID-19.
+
+- **Number of Movies on IMDb Broken Down by Genre**: *Drama (53%) and Comedy (32%)* genres together dominate the content on IMDb, reflecting a high concentration of movies in these two genres compared to others.
+
+<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/IMDb%20Movie%20Genre%20Breakdown.png" alt="IMDb Movie Count Broken down by Genre" width="700" height="350">
 
 
-
-- **Number of Movies Released and Ratings** have substantially increased over time but both declined harshly during COVID-19.
-- **High correlation** between the average rating of genres compared to the overall average over time. Thus, when the overall average rating increases or decreases, the average rating for individual genres tends to move in the same direction. This suggests that ratings across genres are strongly influenced by similar factors influencing the overall trend.
-- 
-- **Drama (53%) and Comedy (32%)** genres together dominate the content on IMDb, reflecting a high concentration of movies in these two genres compared to others.
-- **Average Movie Runtime** has steadily increased over time, being generally above 100 mins since 1960.
-- **The Shawshank Redemption** was the most highly rated movie in the dataset (considering movies with at least 100k reviews), with an average rating of 9.3.
-- **The Dark Night** was the most rated movie in the dataset, with a total of 8.58M ratings and an average rating of 9.0.
-
-
+- Other Observations
+  - **Average Movie Runtime** has steadily increased over time, being generally above 100 mins since 1960.
+  - **The Shawshank Redemption** was the most highly rated movie in the dataset (considering movies with at least 100k reviews), with an average rating of 9.3.
+  - **The Dark Night** was the most rated movie in the dataset, with a total of 8.58M ratings and an average rating of 9.0.
 
 ## Exporting the data
 
