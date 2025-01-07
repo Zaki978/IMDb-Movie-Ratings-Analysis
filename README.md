@@ -73,16 +73,19 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Genre%20Heatmap%20Ratings.png" alt="Heatmap of Genre Ratings" width="900" height="400">
 
 - **Correlation Between Genres and Rating**:
-<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Gener%20Correlation%20results.png" alt="IMDb Movie Count Broken down by Genre" width="800" height="325">
-The correlations above suggest that many genres have strong correlations between their average ratings and the overall average rating over time. This namely the case with drama, comedy, and action had correlations of 0.91, 0.96, and 0.91, respectively, with the overall average. This indicates that as the overall average rating rises or falls, the average ratings for these genres tend to follow a similar pattern as outlined in the graph below: 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Genre%20Rating%20Over%20Time%202.png" alt="Average Rating by Genre Over Time" width="700" height="350">
 
-- The chart below highlights a strong correlation between the average ratings of certain genres and the overall average rating over time (the black dotted line). Notably,. . This suggests that genre ratings are strongly influenced by common factors driving the overall trend.
-  - On the other hand, these high correlations might also indicate that these three genres are driving the overall trend especially since these three genres make up the majority of movies on IMDb. 
+When examining the average ratings of specific genres, such as drama, comedy, and action, we observe that their ratings over the years closely align with the overall average rating (represented by the black dotted line), indicating a strong correlation between them. Genre ratings are strongly influenced by common factors driving the overall trend.
+
+<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Gener%20Correlation%20results.png" alt="IMDb Movie Count Broken down by Genre" width="800" height="325">
+
+After calculating the correlations above, the findings suggest that many genres have strong correlations between their average ratings and the overall average rating over time. This is namely the case with drama, comedy, and action, which had correlations of 0.91, 0.96, and 0.91, respectively, with the overall average. This indicates that as the overall average rating rises or falls, the average ratings for these genres tend to follow a similar pattern.
+
+We also notice, however, that news, documentary and biography genres have very low to negative correlations, implying that the ratings for these types of movies are less tied to the overall trend. This makes sense, as these genres have had the highest ratings throughout time. While other movie genres as a whole have decreased over time, the genres have maintained their popularity over time. 
+
   - Sci-fi had a considerably lower correlation of 0.64, likely due to higher volatility in ratings. 
 
-- **Number of Ratings by Genre**: Drama, comedy, and action make up nearly half of all ratings. This overrepresentation likely amplifies their influence on the overall trends. The aggregate average movie rating trend is disproportionately shaped by these genres, which may explain the strong correlation with individual movie ratings for these genres.
-
+- **Number of Ratings by Genre**: Drama, comedy, and action make up nearly half of all ratings. This overrepresentation likely amplifies their influence on the overall trends. The aggregate average movie rating trend is disproportionately shaped by these genres, which may explain the strong correlation with individual movie ratings for these genres. Conversely, news, documentary and biography have had a much lower proportion of ratings which explains why their ratings don't have a big impact on the overall ratings over time. 
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Number%20of%20Ratings%20by%20Genre.png" alt="Total Number of Ratings by Genre" width="600" height="550">
 
