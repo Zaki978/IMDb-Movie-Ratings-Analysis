@@ -37,12 +37,12 @@ Prior to starting my investigation, a variety of data cleaning, transformation a
 - **Removing columns** to exclude unnecessary information such as dropping the 'Original Title' and 'End Year' columns
 - **Converting columns** to the appropriate data types, such as reformatting columns in the `titles.basic` table from object type to numerical, string, and boolean types
 - **Handling missing values** by either filling them with NaN values or dropping the rows/columns with missing values.
-  - Checked for null values in data frame using the `df.isnull().sum() method`
-  - Removed records with null values in the 'Release Year' and 'Title Name' columns as these were crucial fields for analysis
+  - Checked for null values in the data frame using the `df.isnull().sum() method
+  - Removed 76k rows where 'Genres' column had '\N' values
+  - Removed 1.4M records with null values in the 'Release Year' as it was a crucial fields for analysis
   - Converted displaced year values that appeared in the 'Is Adult' column to null using a mapping dictionary
 - **Filtering the data** to include only movies from the past 100 years and with a minimum number of ratings of 278.
   - Included only rows where the Title Type column has values 'movie' or 'tvMovie' using `title_basics[title_basics['Title Type'].isin(['movie', 'tvMovie'])]`
-  - Removed rows where 'Genres' column had '\N' values
   - Filtered movies by setting a minimum threshold for the number of ratings per movie at the top 75th percentile, equating to 278 ratings to avoid noise and improve data reliability
 - **Merging tables** by performing an inner join on the filtered_movies and imdb_ratings dataframes using the 'Title ID' column to create a unified DataFrame for analysis.
 - **Splitting the genres column** into multiple rows to allow for genre-level analysis.
@@ -95,8 +95,10 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 ## Exporting the data
 
 ## Assumptions and Caveats
-- **Genre Classification**: The project assumes that the genre classification provided by IMDb is accurate, although genre classification can be subjective and up to interpretation. IMDb limits each title to a maximum of three genres, even though a title could belong to more. Furthermore, the dataset includes 28 standardized genres, which, while useful for consistency, is not fully comprehensive and omits certain relevant genres such as satire or niche categories.
-- **Ratings Threshold**: The project filters out movies with less than a certain number of ratings (the 75th percentile of the 'Number of Ratings' column). This threshold is somewhat arbitrary, and changing it could potentially affect the results.
+- **Genre Classification**: The project assumes that the genre classification provided by IMDb is accurate, although genre classification can be subjective and open to interpretation. IMDb limits each title to a maximum of three genres, even though a title could belong to more. Furthermore, the dataset includes 28 standardized genres, which, while useful for consistency, is not fully comprehensive and omits certain relevant genres, such as satire or niche categories
+- **Ratings Threshold**: The project filters out movies with less than a certain number of ratings (the 75th percentile of the 'Number of Ratings' column). This threshold is somewhat arbitrary, and changing it could potentially affect the results
+- **Missing Data**: The project involves dropping rows with missing values in certain columns like 'Release Year' and "Genre", which had 1.4M and 76k missing values, respectively. This could potentially introduce bias if the missingness is not completely at random
+- **Data Entry Errors**: Throughout the project, several data entry errors were identified, such as year values appearing in the 'Is Adult' column or release years exceeding the current calendar year. While many of these errors were addressed, it is possible that other unnoticed errors remain in the dataset
 - **Data Source**: The data used in this project comes from IMDb, which primarily represents the opinions of its user base. Therefore, the insights may not be representative of the broader population's views on movies
 
 
