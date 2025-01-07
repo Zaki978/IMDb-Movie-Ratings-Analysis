@@ -51,7 +51,7 @@ Prior to starting my investigation, a variety of data cleaning, transformation a
 
 ## Overview of Findings
 
-Successfully found average ratings for each genre in the dataset. mention that the genres with the lowest scores are usually the ones that have the most movies and reviews on IMDb which is the opportise for genres with the highest scores.
+Successfully identified all genres in the IMDb dataset and found average ratings for each genre in the dataset. mention that the genres with the lowest scores are usually the ones that have the most movies and reviews on IMDb which is the opportise for genres with the highest scores.
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20by%20Genre.png" alt="Distribution of Ratings Histogram" width="700" height="600">
 
@@ -95,8 +95,11 @@ Successfully found average ratings for each genre in the dataset. mention that t
 ## Exporting the data
 
 ## Assumptions and Caveats
-- assumed that taking the 75th percentile was the most reasonable choice
-- 
+- **Genre Classification**: The project assumes that the genre classification provided by IMDb is accurate, although genre classification can be subjective and up to interpretation. IMDb limits each title to a maximum of three genres, even though a title could belong to more. Furthermore, the dataset includes 28 standardized genres, which, while useful for consistency, is not fully comprehensive and omits certain relevant genres such as satire or niche categories.
+- **Ratings Threshold**: The project filters out movies with less than a certain number of ratings (the 75th percentile of the 'Number of Ratings' column). This threshold is somewhat arbitrary, and changing it could potentially affect the results.
+- **Data Source**: The data used in this project comes from IMDb, which primarily represents the opinions of its user base. Therefore, the insights may not be representative of the broader population's views on movies
+
+
 
 ### Author
 
