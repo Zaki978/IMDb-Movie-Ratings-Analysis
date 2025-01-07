@@ -25,7 +25,7 @@ Advanced visualizations and interactive exploration of the data available on my 
 
 ## Dataset Structure
 IMDb has a subset of its data accessible to customers for personal and non-commercial use [avalaible here](https://developer.imdb.com/non-commercial-datasets/). 
-This project utilizes two tables from IMDb's online database: `title.basics`, `title.ratings` with a total row count of 12.72M records. A description of each table is as follows:
+This project utilizes two tables from IMDb's online database downloaded in April of 2024: `title.basics`, `title.ratings` with a total row count of 12.72M records. A description of each table is as follows:
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/IMDb%20Project%20Table%20Schema.png" alt="IMDb Table Schemas" width="600" height="300">
 
@@ -89,8 +89,9 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 
 - Other Observations
   - **Average Movie Runtime** has steadily increased over time, being generally above 100 mins since 1960.
-  - **The Shawshank Redemption** was the most highly rated movie in the dataset (considering movies with at least 100k reviews), with an average rating of 9.3.
-  - **The Dark Night** was the most rated movie in the dataset, with a total of 8.58M ratings and an average rating of 9.0.
+  - **The Shawshank Redemption** was both the most highly rated and the most rated movie in the dataset, with an average rating of 9.3 and a total of 2.88M ratings. 
+  - **The Dark Night** was the second most-rated movie in the dataset, with a total of 2.86M ratings, while having the 4th highest average rating of 9.0.
+  - **The Godfather** was the second most highly rated movie with an average rating of 9.2 while being the 8th most rated movie in the dataset. 
 
 ## Exporting the data
 
