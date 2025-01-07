@@ -75,7 +75,7 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 - **Correlation Between Genres and Rating**:
 ![Genre Correlations]()
 
-<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Gener%20Correlation%20results.png" alt="IMDb Movie Count Broken down by Genre" width="900" height="500">
+<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Gener%20Correlation%20results.png" alt="IMDb Movie Count Broken down by Genre" width="900" height="400">
 
 - The chart below highlights a strong correlation between the average ratings of certain genres and the overall average rating over time (the black dotted line). Notably, drama, comedy, and action had correlations of 0.91, 0.96, and 0.91, respectively, with the overall average. This indicates that as the overall average rating rises or falls, the average ratings for these genres tend to follow a similar pattern. This suggests that genre ratings are strongly influenced by common factors driving the overall trend.
   - On the other hand, these high correlations might also indicate that these three genres are driving the overall trend especially since these three genres make up the majority of movies on IMDb. 
