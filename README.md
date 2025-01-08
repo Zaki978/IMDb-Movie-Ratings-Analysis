@@ -55,9 +55,6 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20by%20Genre.png" alt="Distribution of Ratings Histogram" width="700" height="600">
 
-
-
-
 ## Insights Deep Dive
 
 - **Distribution of Average Ratings**: The majority of movies have ratings between 5.5 and 7, with the 6.5 to 6.75 interval receiving the highest number of ratings (137k). This suggests that most movies are viewed as average to slightly above average in quality by IMDb's user base, with extreme ratings being uncommon
@@ -83,8 +80,6 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 
 - We also notice, however, that news, documentary and biography genres have very low to negative correlations, implying that the ratings for these types of movies are less tied to the overall trend. This makes sense, as these genres have had the highest ratings throughout time. While other movie genres as a whole have decreased over time, the genres have maintained their popularity over time. 
 
-  - Sci-fi had a considerably lower correlation of 0.64, likely due to higher volatility in ratings. 
-
 - **Number of Ratings by Genre**: Drama, comedy, and action make up nearly half of all ratings. This overrepresentation likely amplifies their influence on the overall trends. The aggregate average movie rating trend is disproportionately shaped by these genres, which may explain the strong correlation with individual movie ratings for these genres. Conversely, news, documentary and biography have had a much lower proportion of ratings which explains why their ratings don't have a big impact on the overall ratings over time. 
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Number%20of%20Ratings%20by%20Genre.png" alt="Total Number of Ratings by Genre" width="600" height="550">
@@ -105,8 +100,6 @@ Successfully identified all genres in the IMDb dataset and found average ratings
   - **The Shawshank Redemption** was both the most highly rated and the most rated movie in the dataset, with an average rating of 9.3 and a total of 2.88M ratings. 
   - **The Dark Night** was the second most-rated movie in the dataset, with a total of 2.86M ratings, while having the 4th highest average rating of 9.0.
   - **The Godfather** was the second most highly rated movie with an average rating of 9.2 while being the 8th most rated movie in the dataset. 
-
-## Exporting the data
 
 ## Assumptions and Caveats
 - **Genre Classification**: The project assumes that the genre classification provided by IMDb is accurate, although genre classification can be subjective and open to interpretation. IMDb limits each title to a maximum of three genres, even though a title could belong to more. Furthermore, the dataset includes 28 standardized genres, which, while useful for consistency, is not fully comprehensive and omits certain relevant genres, such as satire or niche categories
