@@ -68,7 +68,7 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 
 - **Genre Popularity Analysis**: 
   - *Horror, Sci-fi and Thriller* genres had the worst average ratings in the dataset across all periods of time.
-  - *News, Documentary and Biography* genres had the best average ratings in the dataset across all periods of time.
+  - *Documentary, Biography and Amimation* genres had the best average ratings in the dataset across all periods of time.
   
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Genre%20Heatmap%20Ratings.png" alt="Heatmap of Genre Ratings" width="900" height="400">
 
