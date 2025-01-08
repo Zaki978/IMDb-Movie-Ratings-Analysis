@@ -75,13 +75,13 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 - **Correlation Between Genres and Rating**:
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Genre%20Rating%20Over%20Time%202.png" alt="Average Rating by Genre Over Time" width="700" height="350">
 
-When examining the average ratings of specific genres, such as drama, comedy, and action, we observe that their ratings over the years closely align with the overall average rating (represented by the black dotted line), indicating a strong correlation between them.
+- When examining the average ratings of specific genres, such as drama, comedy, and action, we observe that their ratings over the years closely align with the overall average rating (represented by the black dotted line), indicating a strong correlation between them.
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Gener%20Correlation%20results.png" alt="IMDb Movie Count Broken down by Genre" width="800" height="325">
 
-After calculating the correlations above, the findings suggest that many genres have strong correlations between their average ratings and the overall average rating over time. This is namely the case with drama, comedy, and action, which had correlations of 0.91, 0.96, and 0.91, respectively, with the overall average. This indicates that as the overall average rating rises or falls, the average ratings for these genres tend to follow a similar pattern.
+- After calculating the correlations above, the findings suggest that many genres have strong correlations between their average ratings and the overall average rating over time. This is namely the case with drama, comedy, and action, which had correlations of 0.91, 0.96, and 0.91, respectively, with the overall average. This indicates that as the overall average rating rises or falls, the average ratings for these genres tend to follow a similar pattern.
 
-We also notice, however, that news, documentary and biography genres have very low to negative correlations, implying that the ratings for these types of movies are less tied to the overall trend. This makes sense, as these genres have had the highest ratings throughout time. While other movie genres as a whole have decreased over time, the genres have maintained their popularity over time. 
+- We also notice, however, that news, documentary and biography genres have very low to negative correlations, implying that the ratings for these types of movies are less tied to the overall trend. This makes sense, as these genres have had the highest ratings throughout time. While other movie genres as a whole have decreased over time, the genres have maintained their popularity over time. 
 
   - Sci-fi had a considerably lower correlation of 0.64, likely due to higher volatility in ratings. 
 
