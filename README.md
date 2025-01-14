@@ -63,8 +63,10 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 - **Trends in Movie Ratings Over Time**: Overall movie ratings have declined over the release period, with movies from the 1920s typically receiving ratings in the high 6s, compared to movies from the 2010s and 2020s generally receiving low 6s and high 5s. It is important to emphasize that this trend does not necessarily indicate a decline in movie quality over time. IMDb, established in 1990, primarily caters to younger audiences and does not fully represent the earlier decades in the dataset. One plausible explanation for the downward trend in ratings is **rating bias**: newer movies are assessed by larger, more diverse audiences, leading to greater variability and potentially lower average ratings. In contrast, older movies are often watched by smaller, niche audiences who are likely to appreciate these films more and rate them favorably. This dynamic will be explored further in the next chart.
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20Over%20Time.png" alt="Distribution of Ratings Histogram" width="900" height="550">
 
-- **Number of Movies Released and Ratings**: substantially increased over time, but both declined harshly during COVID-19.
-
+- **Number of Movies Released and Ratings**: There has been a substantial simultaneous increase in the number of movies released and the volume of ratings on IMDb over time. This is likely driven by the film industry's growth and widespread internet access, which has boosted ratings for recent movies. As shown on the graph, the number of movie ratings released post-1990 (IMDb's launch year) dwarfs movie ratings prior to that period, supporting the view of rating bias driving the downward trend of movie ratings over time.
+  - Another observation is the number of movies released and rated declined harshly during COVID-19. As movie production halted during this period, there were fewer new movies for audiences to rate, also causing an ever larger  drop in a number of ratings on IMDb from 2019 to 2020.
+  - However, when examining the period before COVID-19, we notice that the number of movie ratings on IMDb had actually been dropping since 2014 and thus Covid didn't cause this fall in ratings but rather amplified the downward trend.
+  - 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Movie%20Ratings%20vs%20Release%20Year.png" alt="Movie Ratings vs Movies Released" width="850" height="350">
 
 - **Genre Popularity Analysis**: 
