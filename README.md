@@ -67,7 +67,7 @@ Successfully identified all genres in the IMDb dataset and found average ratings
   - Another observation is the number of movies released and rated declined harshly during COVID-19. As movie production halted during this period, there were fewer new movies for audiences to rate, also causing an ever larger  drop in a number of ratings on IMDb from 2019 to 2020.
   - When examining the period before COVID-19, it becomes evident that the number of movie ratings on IMDb had been declining since 2014, suggesting that COVID-19 did not initiate this downward trend but rather exacerbated it. One possible explanation for this decline is that IMDb's dataset may have become less comprehensive over time. However, a more plausible explanation points to a decline in user engagement. IMDb now faces significant competition from platforms like Rotten Tomatoes and Metacritic, which provide alternative perspectives on film reviews, as well as newer apps like Letterboxd, which have gained traction by addressing user frustrations. Issues such as unpopular redesigns, increased promotional content, and the lack of engaging social features have driven some users to these newer platforms, which offer a more tailored and interactive experience.
 
-<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Movie%20Ratings%20vs%20Release%20Year.png" alt="Movie Ratings vs Movies Released" width="850" height="350">
+<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Movie%20Ratings%20vs%20Release%20Year.png" alt="Movie Ratings vs Movies Released" width="950" height="400">
 
 - **Genre Popularity Analysis**: 
   - *Horror, Sci-fi and Thriller* genres had the worst average ratings in the dataset across all periods of time.
