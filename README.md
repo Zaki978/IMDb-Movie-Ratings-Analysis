@@ -63,6 +63,10 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 - **Trends in Movie Ratings Over Time**: Overall movie ratings have declined over the release period, remaining just below an average of 6 out of 10 for the past two decades, with a slight rebound in the last three years. One possible explanation for this downward trend is rating bias, as newer movies are evaluated by larger, more diverse audiences, resulting in greater variability and potentially lower average ratings.
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20Over%20Time.png" alt="Distribution of Ratings Histogram" width="900" height="550">
 
+- **Number of Movies Released and Ratings**: substantially increased over time, but both declined harshly during COVID-19.
+
+<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Movie%20Ratings%20vs%20Release%20Year.png" alt="Movie Ratings vs Movies Released" width="850" height="350">
+
 - **Genre Popularity Analysis**: 
   - *Horror, Sci-fi and Thriller* genres had the worst average ratings in the dataset across all periods of time.
   - *Documentary, Biography and Amimation* genres had the best average ratings in the dataset across all periods of time.
@@ -84,12 +88,6 @@ Successfully identified all genres in the IMDb dataset and found average ratings
   - We also notice that the horror, sci-fi genres that had the worst ratings had a much higher proportion of ratings that the genres with higher ratings  
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Number%20of%20Ratings%20by%20Genre.png" alt="Total Number of Ratings by Genre" width="600" height="550">
-
-
-- **Number of Movies Released and Ratings**: substantially increased over time, but both declined harshly during COVID-19.
-
-<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Movie%20Ratings%20vs%20Release%20Year.png" alt="Movie Ratings vs Movies Released" width="850" height="350">
-
 
 - **Number of Movies on IMDb Broken Down by Genre**: *Drama (53%) and Comedy (32%)* genres together dominate the content on IMDb, reflecting a high concentration of movies in these two genres compared to others.
 
