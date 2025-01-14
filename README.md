@@ -86,10 +86,9 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Gener%20Correlation%20results.png" alt="IMDb Movie Count Broken down by Genre" width="800" height="325">
 
-- **Number of Ratings by Genre**: Drama, comedy, and action make up nearly half of all ratings. This overrepresentation likely amplifies their influence on the overall trends. The aggregate average movie rating trend is disproportionately shaped by these genres, which may explain the strong correlation with individual movie ratings for these genres. Conversely, news, documentary and biography have had a much lower proportion of ratings which explains why their ratings don't have a big impact on the overall ratings over time. These genres also had much higher ratings than horror, and sci-fi genres while having much lower total ratings.
+- **Number of Ratings by Genre**: Drama, comedy, and action account for nearly half of all ratings, significantly amplifying their influence on overall trends. The aggregate average movie rating trend is largely driven by these genres, which explains the strong correlation between their individual ratings and the overall ratings. Genres with the highest ratings, such as news, documentary, and biography, have a much smaller share of total ratings, which limits their influence on overall rating trends over time. In contrast, horror and sci-fi, which have some of the lowest average ratings, have significantly higher total ratings, giving them a greater impact on the overall trends.
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Number%20of%20Ratings%20by%20Genre.png" alt="Total Number of Ratings by Genre" width="600" height="550">
-
 
 - Other Observations
   - **Average Movie Runtime** has steadily increased over time, being generally above 100 mins since 1960.
