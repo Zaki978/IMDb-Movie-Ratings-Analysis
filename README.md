@@ -58,7 +58,7 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 ## Insights Deep Dive
 
 - **Distribution of Average Ratings**: The majority of movies have ratings between 5.5 and 7, with the 6.5 to 6.75 interval receiving the highest number of ratings (137k). This suggests that most movies are viewed as average to slightly above average in quality by IMDb's user base, with extreme ratings being uncommon
-<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Distribution%20of%20ratings%20Histogram.png" alt="Distribution of Ratings Histogram" width="600" height="300">
+<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Distribution%20of%20ratings%20Histogram.png" alt="Distribution of Ratings Histogram" width="600" height="400">
 
 - **Trends in Movie Ratings Over Time**: Overall movie ratings have declined over the release period, remaining just below an average of 6 out of 10 for the past two decades, with a slight rebound in the last three years. One possible explanation for this downward trend is rating bias, as newer movies are evaluated by larger, more diverse audiences, resulting in greater variability and potentially lower average ratings.
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20Over%20Time.png" alt="Distribution of Ratings Histogram" width="900" height="550">
