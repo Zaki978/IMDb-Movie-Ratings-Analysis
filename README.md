@@ -78,7 +78,7 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 - **Correlation Between Genres and Rating**:
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Genre%20Rating%20Over%20Time%202.png" alt="Average Rating by Genre Over Time" width="700" height="350">
 
-- When examining the average ratings of specific genres, such as drama, comedy, and action, we observe that their ratings over the years closely align with the overall average rating (represented by the black dotted line), indicating a strong correlation between them.
+- When visualizing the average ratings of specific genres over the years, such as drama, comedy, and action, we observe that their ratings closely align with the overall average rating (represented by the black dotted line), indicating a strong correlation between them.
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Gener%20Correlation%20results.png" alt="IMDb Movie Count Broken down by Genre" width="800" height="325">
 
