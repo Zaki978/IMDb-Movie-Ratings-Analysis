@@ -34,7 +34,7 @@ This project utilizes two tables from IMDb's online database downloaded in April
 Prior to starting my investigation, a variety of data cleaning, transformation and manipulation processes were conducted which can be viewed on the [Jupyter Notebook file](https://github.com/Zaki978/IMDb-Movie-Ratings-Analysis/blob/main/Movie%20Rating%20Analysis%20Project%20V2.ipynb). These steps were essential in ensuring that the data was accurate, consistent, relevant, and structured appropriately for analysis and improved the reliability of the results.
 
 - **Renaming columns** to improve clarity, such as changing 'Start Year' to 'Release Year'
-- **Removing columns** to exclude unnecessary information such as dropping the 'Original Title' and 'End Year' columns
+- **Removing columns** to exclude unnecessary information, such as dropping the 'Original Title' and 'End Year' columns
 - **Converting columns** to the appropriate data types, such as reformatting columns in the `titles.basic` table from object type to numerical, string, and boolean types
 - **Handling missing values** by either filling them with NaN values or dropping the rows/columns with missing values.
   - Checked for null values in the data frame using the `df.isnull().sum() method`
@@ -69,9 +69,9 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 - **Distribution of Average Ratings**: The majority of movies have ratings between 5.5 and 7, with the 6.5 to 6.75 interval receiving the highest number of ratings (137k). This suggests that most movies are viewed as average to slightly above average in quality by IMDb's user base, with extreme ratings being uncommon
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Distribution%20of%20ratings%20Histogram.png" alt="Distribution of Ratings Histogram" width="700" height="350">
 
-- **Genre Popularity Analysis**: 
-  - *Horror, Sci-fi and Thriller* genres had the worst average ratings in the dataset across all periods of time.
-  - *Documentary, Biography and Amimation* genres had the best average ratings in the dataset across all periods of time.
+- **Genre Popularity Analysis**: This heatmap suggests that the average ratings were higher in earlier decades (1920-1960s) but dropped in more recent years. As mentioned earlier, this pattern could be due to rating bias, as older films are often rated by niche audiences who appreciate them, leading to higher average ratings despite few total ratings. In contrast, the decline in ratings for recent decades could reflect a more diverse and varied audience or an increase in the quantity of mediocre films diluting the overall quality. 
+  - *Horror, Sci-fi, and Thriller* genres consistently had the worst average ratings in the dataset across all periods of time.
+  - *Documentary, Biography, and Animation* genres had the best average ratings in the dataset across all periods of time.
   
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Genre%20Heatmap%20Ratings.png" alt="Heatmap of Genre Ratings" width="900" height="400">
 
@@ -87,7 +87,7 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 - We also notice, however, that news, documentary and biography genres have very low to negative correlations, implying that the ratings for these types of movies are less tied to the overall trend. This makes sense, as these genres have had the highest ratings throughout time. While other movie genres as a whole have decreased over time, the genres have maintained their popularity over time. 
 
 - **Number of Ratings by Genre**: Drama, comedy, and action make up nearly half of all ratings. This overrepresentation likely amplifies their influence on the overall trends. The aggregate average movie rating trend is disproportionately shaped by these genres, which may explain the strong correlation with individual movie ratings for these genres. Conversely, news, documentary and biography have had a much lower proportion of ratings which explains why their ratings don't have a big impact on the overall ratings over time. These genres also had much higher ratings. 
-  - We also notice that the horror, sci-fi genres that had the worst ratings had a much higher proportion of ratings that the genres with higher ratings  
+  - We also notice that the horror, and sci-fi genres that had the worst ratings had a much higher proportion of ratings than the genres with higher ratings  
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Number%20of%20Ratings%20by%20Genre.png" alt="Total Number of Ratings by Genre" width="600" height="550">
 
