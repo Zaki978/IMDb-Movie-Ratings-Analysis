@@ -33,20 +33,20 @@ This project utilizes two tables from IMDb's online database downloaded in April
 
 Prior to starting my investigation, a variety of data cleaning, transformation and manipulation processes were conducted which can be viewed on the [Jupyter Notebook file](https://github.com/Zaki978/IMDb-Movie-Ratings-Analysis/blob/main/Movie%20Rating%20Analysis%20Project%20V2.ipynb). These steps were essential in ensuring that the data was accurate, consistent, relevant, and structured appropriately for analysis and improved the reliability of the results.
 
-- **Renaming columns** to improve clarity, such as changing 'Start Year' to 'Release Year'
-- **Removing columns** to exclude unnecessary information, such as dropping the 'Original Title' and 'End Year' columns
-- **Converting columns** to the appropriate data types, such as reformatting columns in the `titles.basic` table from object type to numerical, string, and boolean types
-- **Handling missing values** by either filling them with NaN values or dropping the rows/columns with missing values.
+- **Renamed columns** to improve clarity, such as changing 'Start Year' to 'Release Year'
+- **Removed columns** to exclude unnecessary information, such as dropping the 'Original Title' and 'End Year' columns
+- **Converted columns** to the appropriate data types, such as reformatting columns in the `titles.basic` table from object type to numerical, string, and boolean types
+- **Handled missing values** by either filling them with NaN values or dropping the rows/columns with missing values.
   - Checked for null values in the data frame using the `df.isnull().sum() method`
   - Removed 76k rows where 'Genres' column had '\N' values
   - Removed 1.4M records with null values in the 'Release Year' as it was a crucial fields for analysis
   - Converted displaced year values that appeared in the 'Is Adult' column to null using a mapping dictionary
-- **Filtering the data** to include only movies from the past 100 years and with a minimum number of ratings of 278.
+- **Filtered the data** to include only movies from the past 100 years and with a minimum number of ratings of 278.
   - Included only rows where the Title Type column has values 'movie' or 'tvMovie' using `title_basics[title_basics['Title Type'].isin(['movie', 'tvMovie'])]`
   - Filtered movies by setting a minimum threshold for the number of ratings per movie at the top 75th percentile, equating to 278 ratings to avoid noise and improve data reliability
-- **Merging tables** by performing an inner join on the filtered_movies and imdb_ratings dataframes using the 'Title ID' column to create a unified DataFrame for analysis.
-- **Splitting the genres column** into multiple rows to allow for genre-level analysis.
-- **Creating new columns** deeper analysis, such as a 'Decade' column, to minimize short-term fluctuations from individual years and emphasize meaningful, actionable trends
+- **Merged tables** by performing an inner join on the filtered_movies and imdb_ratings dataframes using the 'Title ID' column to create a unified DataFrame for analysis.
+- **Splitted the genres column** into multiple rows to allow for genre-level analysis.
+- **Created new columns** deeper analysis, such as a 'Decade' column, to minimize short-term fluctuations from individual years and emphasize meaningful, actionable trends
   - Created a Movie Genre ID to uniquely identify genres associated with each title
 
 ## Overview of Findings
