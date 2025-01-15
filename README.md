@@ -56,7 +56,7 @@ Prior to starting my investigation, a variety of data cleaning, transformation a
 
 ## Overview of Findings
 
-Successfully identified all genres in the IMDb dataset and found average ratings for each genre in the dataset. mention that the genres with the lowest scores are usually the ones that have the most movies and reviews on IMDb which is the opportise for genres with the highest scores.
+Successfully identified all genres in the IMDb dataset and found average ratings for each genre in the dataset. Calculated that overall, News, Documentary and Biography were the most highly rated genres while Thriller, Sci-Fi and Horror had the lowest average rating. However, later noticed that  mention that the genres with the lowest scores are usually the ones that have the most movies and reviews on IMDb which is the opportise for genres with the highest scores.
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20by%20Genre.png" alt="Distribution of Ratings Histogram" width="700" height="600">
 
