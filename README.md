@@ -90,7 +90,9 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Gener%20Correlation%20results.png" alt="IMDb Movie Count Broken down by Genre" width="800" height="325">
 
-- **Number of Ratings by Genre**: Drama, comedy, and action account for nearly half of all ratings, significantly amplifying their influence on overall trends. The aggregate average movie rating trend is largely driven by these genres, which explains the strong correlation between their individual ratings and the overall ratings. Genres with the highest ratings, such as news, documentary, and biography, have a much smaller share of total ratings, which limits their influence on overall rating trends over time. In contrast, horror and sci-fi, which have some of the lowest average ratings, have significantly higher total ratings, giving them a greater impact on the overall trends.
+- **Number of Ratings by Genre**: Drama, comedy, and action account for nearly half of all ratings, significantly amplifying their influence on overall trends. The aggregate average movie rating trend is largely driven by these genres, which explains the strong correlation between their individual ratings and the overall ratings.
+  - High-rated genres, such as news (>0.1%), documentary (0.48%), and biography (2.5%), had a much smaller share of total ratings, limiting their influence on overall rating trends.
+  - In contrast, low-rated genres like horror (3.79%), thriller (6.48%), and sci-fi (4.79%) accounted for a larger share of total ratings, giving them a greater impact on overall trends.
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Number%20of%20Ratings%20by%20Genre.png" alt="Total Number of Ratings by Genre" width="600" height="550">
 
