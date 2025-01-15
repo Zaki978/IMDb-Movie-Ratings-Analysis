@@ -10,11 +10,10 @@ This project analyzes IMDb movie ratings for films released between 1920 and 202
 
 The analysis highlights the following key areas:
 - **Distribution of Ratings**: Visualized movie rating distributions across 0.25-point intervals to identify patterns
-- **Trends in Movie Ratings Over Time**: Explored how average ratings have evolved over the past century,
+- **Trends in Movie Ratings Over Time**: Explored how average ratings have evolved over the past century
 - **Trends in Number of Movie Releases and Ratings**: Examined growth in movie releases, the impact of COVID-19, and pre-existing declines in IMDb ratings over time.
 - **Genre Popularity Analysis**: Identified trends in genre popularity by examining average ratings over time, revealing shifts in audience preferences
 - **Correlation Between Genres and Ratings**: Measured the relationship between genre-specific ratings and the overall average rating, uncovering how closely each genre aligns with general audience trends over time
-- **Number of Movie Ratings**: Ranked the most rated movies and illustrated the growth in rating activity over time, linking it to the increase in movie releases and demonstrating the effect of filtering data by minimum rating counts 
 - **Number of Movies on IMDb Broken Down by Genre**: Provided a breakdown of the number of movies available on IMDb by genre for a clearer view of representation
 
 Advanced visualizations and interactive exploration of the data are available on my [Tableau Public Profile](https://public.tableau.com/app/profile/zaki.bouaoudia4587/vizzes).
