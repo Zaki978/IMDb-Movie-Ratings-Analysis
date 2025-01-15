@@ -16,6 +16,13 @@ The analysis highlights the following key areas:
 - **Correlation Between Genres and Ratings**: Measured the relationship between genre-specific ratings and the overall average rating, uncovering how closely each genre aligns with general audience trends over time
 - **Number of Ratings by Genre**: Analyzed the disproportionate influence of frequently rated genres on overall rating trends.
 
+Below are three interactive Tableau dashboards on genre ratings and the number of IMDb Ratings:
+- [IMDb Movie Genre Rating Dashboard 1](https://public.tableau.com/app/profile/zaki.bouaoudia4587/viz/IMDbGenreRatingsDashboard/IMDbGenreRatingsDashboard)
+- [IMDb Movie Genre Rating Dashboard 2](https://public.tableau.com/app/profile/zaki.bouaoudia4587/viz/IMDbGenreRatingsDashboard2/IMDbGenreRatingsDashboard2)
+- [Number of IMDb Movie Ratings Dashboard](https://public.tableau.com/app/profile/zaki.bouaoudia4587/viz/NumberofIMDbMovieRatingsDashboard/NumberofIMDbMovieRatingsDashboard)
+
+A Tableau story is used to walk through ratings, genre and relationship level analysis and can be found here [Tableau Story](https://public.tableau.com/app/profile/zaki.bouaoudia4587/viz/IMDbMovieRatingStoryAnalysis/IMDbMovieRatingAnalysisStory).
+
 Advanced visualizations and interactive exploration of the data are available on my [Tableau Public Profile](https://public.tableau.com/app/profile/zaki.bouaoudia4587/vizzes).
 
 ### Technologies Used
