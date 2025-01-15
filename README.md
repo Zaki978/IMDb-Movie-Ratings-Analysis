@@ -101,7 +101,7 @@ Another key finding was the evolution of IMDb ratings and movie releases, with a
 
 - Other Observations
   - **Average Movie Runtime** has steadily increased over time, being generally above 100 mins since 1960.
-  - **Number of Movies on IMDb Broken Down by Genre**: *Drama (53%) and Comedy (32%)* genres together dominate the content on IMDb, reflecting a high concentration of movies in these two genres compared to others.
+  - **Number of Movies on IMDb by Genre**: *Drama (53%) and Comedy (32%)* dominated, reflecting a high concentration of movie content in these two genres.
   - **The Shawshank Redemption** was both the most highly rated and the most rated movie in the dataset, with an average rating of 9.3 and a total of 2.88M ratings. 
   - **The Dark Night** was the second most-rated movie in the dataset, with a total of 2.86M ratings, while having the 4th highest average rating of 9.0.
   - **The Godfather** was the second most highly rated movie with an average rating of 9.2 while being the 8th most rated movie in the dataset. 
