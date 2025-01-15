@@ -11,12 +11,13 @@ This project analyzes IMDb movie ratings for films released between 1920 and 202
 The analysis highlights the following key areas:
 - **Distribution of Ratings**: Visualized movie rating distributions across 0.25-point intervals to identify patterns
 - **Trends in Movie Ratings Over Time**: Explored how average ratings have evolved over the past century, reflecting shifts in audience preferences and industry standards
+- **Trends in Movie Releases and Ratings**: Examined growth in movie releases, the impact of COVID-19, and pre-existing declines in IMDb ratings over time.
 - **Genre Popularity Analysis**: Identified trends in genre popularity by examining average ratings over time, revealing shifts in audience preferences
 - **Correlation Between Genres and Ratings**: Measured the relationship between genre-specific ratings and the overall average rating, uncovering how closely each genre aligns with general audience trends over time
 - **Number of Movie Ratings**: Ranked the most rated movies and illustrated the growth in rating activity over time, linking it to the increase in movie releases and demonstrating the effect of filtering data by minimum rating counts 
 - **Number of Movies on IMDb Broken Down by Genre**: Provided a breakdown of the number of movies available on IMDb by genre for a clearer view of representation
 
-Advanced visualizations and interactive exploration of the data available on my [Tableau Public Profile](https://public.tableau.com/app/profile/zaki.bouaoudia4587/vizzes).
+Advanced visualizations and interactive exploration of the data are available on my [Tableau Public Profile](https://public.tableau.com/app/profile/zaki.bouaoudia4587/vizzes).
 
 ### Technologies Used
 - **Python**: Data manipulation with **pandas** and visualization with **matplotlib**
@@ -56,6 +57,8 @@ Successfully identified all genres in the IMDb dataset and found average ratings
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20by%20Genre.png" alt="Distribution of Ratings Histogram" width="700" height="600">
 
 ## Insights Deep Dive
+- **Distribution of Average Ratings**: The majority of movies have ratings between 5.5 and 7, with the 6.5 to 6.75 interval receiving the highest number of ratings (137k). This suggests that most movies are viewed as average to slightly above average in quality by IMDb's user base, with extreme ratings being uncommon
+<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Distribution%20of%20ratings%20Histogram.png" alt="Distribution of Ratings Histogram" width="700" height="350">
 
 - **Trends in Movie Ratings Over Time**: Overall movie ratings have declined over the release period, with movies from the 1920s typically receiving ratings in the high 6s, compared to movies from the 2010s and 2020s generally receiving low 6s and high 5s. It is important to emphasize that this trend does not necessarily indicate a decline in movie quality over time. IMDb, established in 1990, primarily caters to younger audiences and does not fully represent the earlier decades in the dataset. One plausible explanation for the downward trend in ratings is **rating bias**: newer movies are assessed by larger, more diverse audiences, leading to greater variability and potentially lower average ratings. In contrast, older movies are often watched by smaller, niche audiences who are likely to appreciate these films more and rate them favorably. This dynamic will be explored further in the next chart.
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20Over%20Time.png" alt="Distribution of Ratings Histogram" width="900" height="550">
@@ -65,9 +68,6 @@ Successfully identified all genres in the IMDb dataset and found average ratings
   - When examining the period before COVID-19, it becomes evident that the number of movie ratings on IMDb had been declining since 2014, suggesting that COVID-19 did not initiate this downward trend but rather exacerbated it. One possible explanation for this decline is that IMDb's dataset may have become less comprehensive over time. However, a more plausible explanation points to a decline in user engagement. IMDb now faces significant competition from platforms like Rotten Tomatoes and Metacritic, which provide alternative perspectives on film reviews, as well as newer apps like Letterboxd, which have gained traction by addressing user frustrations. Issues such as unpopular redesigns, increased promotional content, and the lack of engaging social features have driven some users to these newer platforms, which offer a more tailored and interactive experience.
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Movie%20Ratings%20vs%20Release%20Year.png" alt="Movie Ratings vs Movies Released" width="950" height="400">
-
-- **Distribution of Average Ratings**: The majority of movies have ratings between 5.5 and 7, with the 6.5 to 6.75 interval receiving the highest number of ratings (137k). This suggests that most movies are viewed as average to slightly above average in quality by IMDb's user base, with extreme ratings being uncommon
-<img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Distribution%20of%20ratings%20Histogram.png" alt="Distribution of Ratings Histogram" width="700" height="350">
 
 - **Genre Popularity Analysis**: This heatmap suggests that the average ratings were higher in earlier decades (1920-1960s) but dropped in more recent years. As mentioned earlier, this pattern could be due to rating bias, as older films are often rated by niche audiences who appreciate them, leading to higher average ratings despite few total ratings. In contrast, the decline in ratings for recent decades could reflect a more diverse and varied audience or an increase in the quantity of mediocre films diluting the overall quality. 
   - *Horror, Sci-fi, and Thriller* genres consistently had the worst average ratings in the dataset across all periods of time.
