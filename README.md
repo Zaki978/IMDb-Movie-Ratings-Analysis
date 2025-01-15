@@ -14,7 +14,7 @@ The analysis highlights the following key areas:
 - **Trends in Number of Movie Releases and Ratings**: Examined growth in movie releases, the impact of COVID-19, and pre-existing declines in IMDb ratings over time.
 - **Genre Popularity Analysis**: Identified trends in genre popularity by examining average ratings over time, revealing shifts in audience preferences
 - **Correlation Between Genres and Ratings**: Measured the relationship between genre-specific ratings and the overall average rating, uncovering how closely each genre aligns with general audience trends over time
-- **Number of Movies on IMDb Broken Down by Genre**: Provided a breakdown of the number of movies available on IMDb by genre for a clearer view of representation
+- **Number of Ratings by Genre**: Analyzed the disproportionate influence of frequently rated genres on overall rating trends.
 
 Advanced visualizations and interactive exploration of the data are available on my [Tableau Public Profile](https://public.tableau.com/app/profile/zaki.bouaoudia4587/vizzes).
 
