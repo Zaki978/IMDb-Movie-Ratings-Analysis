@@ -4,14 +4,14 @@
 
 ## Project Overview
 
-IMDb is one of the world's most popular online databases for information on movies, TV shows, and celebrities. The IMDb platform allows users to view details on casts, production crews, biographies, plot summaries and the ability to rate movies on a scale of 1 to 10. 
+IMDb is one of the most popular online databases for movies, TV shows, and celebrities, offering details on casts, production crews, plot summaries, and user ratings on a scale of 1 to 10.
 
-The aim of this project is to analyze IMDb movie ratings for films released over the past 100 years, from 1920 to 2023, using **Python** for data manipulation and **Tableau** for data visualization. The goal is to uncover trends, patterns, and insights from the data, providing a comprehensive understanding of how movie ratings have evolved over the century. Key area of focus of the analysis is on how movie ratings differ across genres during different release periods. 
+This project analyzes IMDb movie ratings for films released between 1920 and 2023, utilizing **Python** for data manipulation and **Tableau** for data visualization. The objective is to uncover trends and patterns in movie ratings over time, with a particular focus on how ratings vary across genres.
 
-The main insights concentrate on the following subjects: 
-- **Distribution of Ratings**: Visualized movie rating distributions across 0.25-point intervals to identify key patterns
-- **Trends in Movie Ratings Over Time**: Analyzed how average ratings have evolved over the past century, reflecting shifts in audience preferences and industry standards
-- **Genre Popularity Analysis**:  Identified trends in genre popularity by analyzing average ratings over time, revealing shifts in audience preferences
+The analysis highlights the following key areas:
+- **Distribution of Ratings**: Visualized movie rating distributions across 0.25-point intervals to identify patterns
+- **Trends in Movie Ratings Over Time**: Explored how average ratings have evolved over the past century, reflecting shifts in audience preferences and industry standards
+- **Genre Popularity Analysis**: Identified trends in genre popularity by examining average ratings over time, revealing shifts in audience preferences
 - **Correlation Between Genres and Ratings**: Measured the relationship between genre-specific ratings and the overall average rating, uncovering how closely each genre aligns with general audience trends over time
 - **Number of Movie Ratings**: Ranked the most rated movies and illustrated the growth in rating activity over time, linking it to the increase in movie releases and demonstrating the effect of filtering data by minimum rating counts 
 - **Number of Movies on IMDb Broken Down by Genre**: Provided a breakdown of the number of movies available on IMDb by genre for a clearer view of representation
