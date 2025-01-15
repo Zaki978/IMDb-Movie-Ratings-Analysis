@@ -73,7 +73,7 @@ Another key finding was the evolution of IMDb ratings and movie releases, with a
 
 - **Number of Movies Released and Ratings**: Over time, the number of movies released and ratings on IMDb has grown significantly, likely driven by the expansion of the film industry and increased internet accessibility, contributing to greater ratings for newer movies. Movies released after IMDb's launch in 1990 far surpass earlier films in rating volume, reinforcing the idea of rating bias on declining rating averages. 
   - A sharp decline in movies released and rated occurred during COVID-19. As production halted, fewer movie releases led to a significant drop in IMDb ratings from 2019 to 2020.
-  - IMDb had been declining since 2014, suggesting that COVID-19 did not initiate this downward trend but rather exacerbated it. This decline is likely due to reduced user engagement, driven by competition from platforms like Rotten Tomatoes and Letterboxd, which offers features addressing frustrations with IMDb's redesigns, promotional content, and limited social interactivity.
+  - IMDb's rating volume has declined 60.5% since 2014, suggesting that COVID-19 did not initiate this downward trend but rather exacerbated it. This decline is likely due to reduced user engagement, driven by competition from platforms like Rotten Tomatoes and Letterboxd, which offers features addressing frustrations with IMDb's redesigns, promotional content, and limited social interactivity.
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Movie%20Ratings%20vs%20Release%20Year.png" alt="Movie Ratings vs Movies Released" width="950" height="400">
 
