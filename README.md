@@ -56,7 +56,11 @@ Prior to starting my investigation, a variety of data cleaning, transformation a
 
 ## Overview of Findings
 
-Successfully identified all genres in the IMDb dataset and found average ratings for each genre in the dataset. Calculated that overall, News, Documentary and Biography were the most highly rated genres while Thriller, Sci-Fi and Horror had the lowest average rating. However, later noticed that  mention that the genres with the lowest scores are usually the ones that have the most movies and reviews on IMDb which is the opportise for genres with the highest scores.
+Successfully analyzed all genres in the IMDb dataset, identifying their average ratings. The findings revealed that **News, Documentary, and Biography** were the highest-rated genres, with averages in the high 6s to low 7s, while **Thriller, Sci-Fi, and Horror** had the lowest ratings, averaging in the low 5s. Additionally, the top-rated genres had a significantly smaller share of total ratings on IMDb, whereas the lowest-rated genres accounted for a much larger share.
+
+Most genres showed a strong correlation with the overall average movie rating trend over time, except for the top three highest-rated genres. These genres maintained their popularity over time despite the general downward trend in ratings, as further illustrated in the heatmap.
+
+Another key finding was the evolution of IMDb ratings and movie releases, with a sharp increase in both after IMDb's launch in 1990, followed by a significant decline in the past decade.
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20by%20Genre.png" alt="Distribution of Ratings Histogram" width="700" height="600">
 
