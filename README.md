@@ -60,7 +60,7 @@ Successfully analyzed all genres in the IMDb dataset, identifying their average 
 
 Most genres showed a strong correlation with the overall average movie rating trend over time, except for the top three highest-rated genres. These genres maintained their popularity over time despite the general downward trend in ratings, as further illustrated in the heatmap.
 
-Another key finding was the evolution of IMDb ratings and movie releases, with a sharp increase in both after IMDb's launch in 1990, followed by a significant decline of 60.5% in volume rating in the past decade.
+Another key finding was the evolution of IMDb ratings and movie releases, marked by a sharp increase after IMDb's 1990 launch, peaking at 124M ratings for 2014 movies, followed by a significant 60.5% decline in rating volume over the past decade.
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20by%20Genre.png" alt="Distribution of Ratings Histogram" width="700" height="600">
 
@@ -71,7 +71,7 @@ Another key finding was the evolution of IMDb ratings and movie releases, with a
 - **Trends in Movie Ratings Over Time**: Movie ratings have declined over time, with 1920s films averaging high 6s and recent decades averaging low 6s to high 5s. It is important to emphasize that this trend does not necessarily indicate a decline in movie quality over time. This does not necessarily reflect a decline in quality but may result from **rating bias**, as newer films are rated by larger, more diverse audiences, while older films attract smaller, niche audiences who rate them more favourably.
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20Over%20Time.png" alt="Distribution of Ratings Histogram" width="900" height="550">
 
-- **Number of Movies Released and Ratings**: Over time, the number of movies released and ratings on IMDb has grown significantly, likely driven by the expansion of the film industry and increased internet accessibility, contributing to greater ratings for newer movies. Movies released after IMDb's launch in 1990 far surpass earlier films in rating volume, reinforcing the idea of rating bias on declining rating averages. 
+- **Number of Movies Released and Ratings**: Over time, the number of movies released and ratings on IMDb has grown significantly, likely driven by the expansion of the film industry and increased internet accessibility, contributing to greater ratings for newer movies. Movies released after IMDb's launch in 1990 far surpass earlier films in rating volume, reinforcing the idea of rating bias on declining rating averages. Movies from 1990  to 2014, saw an increased of 275% in ratings peaking at 124M ratings for movies released in 2014.
   - A sharp decline in movies released and rated occurred during COVID-19. As production halted, fewer movie releases led to a significant drop in IMDb ratings from 2019 to 2020.
   - IMDb's rating volume has declined 60.5% since 2014, suggesting that COVID-19 did not initiate this downward trend but rather exacerbated it. This decline is likely due to reduced user engagement, driven by competition from platforms like Rotten Tomatoes and Letterboxd, which offers features addressing frustrations with IMDb's redesigns, promotional content, and limited social interactivity.
 
