@@ -9,11 +9,11 @@ IMDb is one of the most popular online databases for movies, TV shows, and celeb
 This project analyzes IMDb movie ratings for films released between 1920 and 2023, utilizing **Python** for data manipulation and **Tableau** for data visualization. The objective is to uncover trends and patterns in movie ratings over time, with a particular focus on how ratings vary across genres.
 
 The analysis highlights the following key areas:
-- **Distribution of Ratings**: Visualized movie rating distributions across 0.25-point intervals to identify patterns
-- **Trends in Movie Ratings Over Time**: Explored how average ratings have evolved over the past century
+- **Distribution of Ratings**: Visualized movie rating distributions across 0.25-point intervals to identify patterns.
+- **Trends in Movie Ratings Over Time**: Explored how average ratings have evolved over the past century.
 - **Trends in Number of Movie Releases and Ratings**: Examined growth in movie releases, the impact of COVID-19, and pre-existing declines in IMDb ratings over time.
-- **Genre Popularity Analysis**: Identified trends in genre popularity by examining average ratings over time, revealing shifts in audience preferences
-- **Correlation Between Genres and Ratings**: Measured the relationship between genre-specific ratings and the overall average rating, uncovering how closely each genre aligns with general audience trends over time
+- **Genre Popularity Analysis**: Identified trends in genre popularity by examining average ratings over time, revealing shifts in audience preferences.
+- **Correlation Between Genres and Ratings**: Measured the relationship between genre-specific ratings and the overall average rating, uncovering how closely each genre aligns with general audience trends over time.
 - **Number of Ratings by Genre**: Analyzed the disproportionate influence of frequently rated genres on overall rating trends.
 
 Below are three interactive Tableau dashboards on genre ratings and the number of IMDb Ratings:
@@ -24,9 +24,9 @@ Below are three interactive Tableau dashboards on genre ratings and the number o
 A Tableau story is used to walk through ratings, genre and relationship level analysis and can be found here [Tableau Story](https://public.tableau.com/app/profile/zaki.bouaoudia4587/viz/IMDbMovieRatingStoryAnalysis/IMDbMovieRatingAnalysisStory).
 
 ### Technologies Used
-- **Python**: Data manipulation with **pandas** and visualization with **matplotlib**
-- **Tableau**: Creating charts, dashboards and stories
-- **Jupyter Notebook**: Development environment
+- **Python**: Data manipulation with **pandas** and visualization with **matplotlib**.
+- **Tableau**: Creating charts, dashboards and stories.
+- **Jupyter Notebook**: Development environment.
 
 ## Dataset Structure
 IMDb has a subset of its data accessible to customers for personal and non-commercial use [avalaible here](https://developer.imdb.com/non-commercial-datasets/). 
@@ -38,21 +38,21 @@ This project utilizes two tables from IMDb's online database downloaded in April
 
 Prior to starting my investigation, a variety of data cleaning, transformation and manipulation processes were conducted which can be viewed on the [Jupyter Notebook file](https://github.com/Zaki978/IMDb-Movie-Ratings-Analysis/blob/main/Movie%20Rating%20Analysis%20Project%20V2.ipynb). These steps were essential in ensuring that the data was accurate, consistent, relevant, and structured appropriately for analysis and improved the reliability of the results.
 
-- **Renamed columns** to improve clarity, such as changing 'Start Year' to 'Release Year'
-- **Removed columns** to exclude unnecessary information, such as dropping the 'Original Title' and 'End Year' columns
-- **Converted columns** to the appropriate data types, such as reformatting columns in the `titles.basic` table from object type to numerical, string, and boolean types
+- **Renamed columns** to improve clarity, such as changing 'Start Year' to 'Release Year'.
+- **Removed columns** to exclude unnecessary information, such as dropping the 'Original Title' and 'End Year' columns.
+- **Converted columns** to the appropriate data types, such as reformatting columns in the `titles.basic` table from object type to numerical, string, and boolean types.
 - **Handled missing values** by either filling them with NaN values or dropping the rows/columns with missing values.
-  - Checked for null values in the data frame using the `df.isnull().sum() method`
-  - Removed 76k rows where 'Genres' column had '\N' values
-  - Removed 1.4M records with null values in the 'Release Year' as it was a crucial fields for analysis
-  - Converted displaced year values that appeared in the 'Is Adult' column to null using a mapping dictionary
+  - Checked for null values in the data frame using the `df.isnull().sum() method`.
+  - Removed 76k rows where 'Genres' column had '\N' values.
+  - Removed 1.4M records with null values in the 'Release Year' as it was a crucial field for analysis.
+  - Converted displaced year values that appeared in the 'Is Adult' column to null using a mapping dictionary.
 - **Filtered the data** to include only movies from the past 100 years and with a minimum number of ratings of 278.
-  - Included only rows where the 'Title Type' column has values 'movie' or 'tvMovie'
-  - Filtered movies by setting a minimum threshold for the number of ratings per movie at the top 75th percentile, equating to 278 ratings to avoid noise and improve data reliability
+  - Included only rows where the 'Title Type' column has values 'movie' or 'tvMovie'.
+  - Filtered movies by setting a minimum threshold for the number of ratings per movie at the top 75th percentile, equating to 278 ratings to avoid noise and improve data reliability.
 - **Merged tables** by performing an inner join on the 'filtered_movies' and 'imdb_ratings' dataframes using the 'Title ID' column to create a unified DataFrame for analysis.
 - **Split the genres column** into multiple rows to allow for genre-level analysis.
-- **Created new columns** deeper analysis, such as a 'Decade' column, to minimize short-term fluctuations from individual years and emphasize meaningful, actionable trends
-  - Created a 'Movie Genre ID' field to identify genres associated with each title uniquely
+- **Created new columns** deeper analysis, such as a 'Decade' column, to minimize short-term fluctuations from individual years and emphasize meaningful, actionable trends.
+  - Created a 'Movie Genre ID' field to identify genres associated with each title uniquely.
 
 ## Overview of Findings
 
@@ -65,7 +65,7 @@ Another key finding was the evolution of IMDb ratings and movie releases, with a
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20by%20Genre.png" alt="Distribution of Ratings Histogram" width="700" height="600">
 
 ## Insights Deep Dive
-- **Distribution of Average Ratings**: The majority of movies have ratings between 5.5 and 7, with the 6.5 to 6.75 interval receiving the highest number of ratings (137k). This suggests that most movies are viewed as average to slightly above average in quality by IMDb's user base, with extreme ratings being uncommon
+- **Distribution of Average Ratings**: The majority of movies had ratings between 5.5 and 7, with the 6.5 to 6.75 interval receiving the highest number of ratings (137k). This suggests that most movies were viewed as average to slightly above average in quality by IMDb's user base, with extreme ratings being uncommon.
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Distribution%20of%20ratings%20Histogram.png" alt="Distribution of Ratings Histogram" width="700" height="350">
 
 - **Trends in Movie Ratings Over Time**: Movie ratings have declined over time, with 1920s films averaging high 6s and recent decades averaging low 6s to high 5s. It is important to emphasize that this trend does not necessarily indicate a decline in movie quality over time. This does not necessarily reflect a decline in quality but may result from **rating bias**, as newer films are rated by larger, more diverse audiences, while older films attract smaller, niche audiences who rate them more favourably.
@@ -83,7 +83,7 @@ Another key finding was the evolution of IMDb ratings and movie releases, with a
   
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Genre%20Heatmap%20Ratings.png" alt="Heatmap of Genre Ratings" width="900" height="400">
 
-- **Correlation Between Genres and Rating**: - When visualizing the average ratings of specific genres over the years, such as drama, comedy, and action, we observe that their ratings closely align with the overall average rating (represented by the black dotted line), indicating a strong correlation between them.
+- **Correlation Between Genres and Rating**: Visualizing the average ratings of genres like drama, comedy, and action over the years reveals that their ratings closely align with the overall average rating (depicted by the black dotted line), highlighting strong correlation.
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Genre%20Rating%20Over%20Time%202.png" alt="Average Rating by Genre Over Time" width="700" height="350">
 
@@ -107,11 +107,11 @@ Another key finding was the evolution of IMDb ratings and movie releases, with a
   - **The Godfather** was the second most highly rated movie with an average rating of 9.2 while being the 8th most rated movie in the dataset. 
 
 ## Assumptions and Caveats
-- **Genre Classification**: The project assumes that the genre classification provided by IMDb is accurate, although genre classification can be subjective and open to interpretation. IMDb limits each title to a maximum of three genres, even though a title could belong to more. Furthermore, the dataset includes 28 standardized genres, which, while useful for consistency, is not fully comprehensive and omits certain relevant genres, such as satire or niche categories
+- **Genre Classification**: The project assumes that the genre classification provided by IMDb is accurate, although genre classification can be subjective and open to interpretation. IMDb limits each title to a maximum of three genres, even though a title could belong to more. Furthermore, the dataset includes 28 standardized genres, which, while useful for consistency, is not fully comprehensive and omits certain relevant genres, such as satire.
 - **Ratings Threshold**: The project filters out movies with less than 278 ratings i.e the 75th percentile of the 'Number of Ratings' column. While this threshold helps ensure that only movies with sufficient audience engagement are included, thereby enabling more reliable conclusions, it remains somewhat arbitrary. Adjusting this threshold could influence the analysis and potentially alter the results.
-- **Missing Data**: The project involves dropping rows with missing values in certain columns like 'Release Year' and "Genre", which had 1.4M and 76k missing values, respectively. This could potentially introduce bias if the missingness is not completely at random
-- **Data Entry Errors**: Throughout the project, several data entry errors were identified, such as year values appearing in the 'Is Adult' column or release years exceeding the current calendar year. While many of these errors were addressed, it is possible that other unnoticed errors remain in the dataset
-- **Data Source**: The data used in this project comes from IMDb, which primarily represents the opinions of its user base. Therefore, the insights may not be representative of the broader population's views on movies
+- **Missing Data**: The project involves dropping rows with missing values in certain columns like 'Release Year' and "Genre", which had 1.4M and 76k missing values, respectively. This could potentially introduce bias if the missingness is not completely random.
+- **Data Entry Errors**: Throughout the project, several data entry errors were identified, such as year values appearing in the 'Is Adult' column or release years exceeding the current calendar year. While many of these errors were addressed, it is possible that other unnoticed errors remain in the dataset.
+- **Data Source**: The data used in this project comes from IMDb, which primarily represents the opinions of its user base. Therefore, the insights may not be representative of the broader population's views on movies.
 
 ### Author
 
