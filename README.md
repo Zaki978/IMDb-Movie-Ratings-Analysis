@@ -23,8 +23,6 @@ Below are three interactive Tableau dashboards on genre ratings and the number o
 
 A Tableau story is used to walk through ratings, genre and relationship level analysis and can be found here [Tableau Story](https://public.tableau.com/app/profile/zaki.bouaoudia4587/viz/IMDbMovieRatingStoryAnalysis/IMDbMovieRatingAnalysisStory).
 
-Advanced visualizations and interactive exploration of the data are available on my [Tableau Public Profile](https://public.tableau.com/app/profile/zaki.bouaoudia4587/vizzes).
-
 ### Technologies Used
 - **Python**: Data manipulation with **pandas** and visualization with **matplotlib**
 - **Tableau**: Creating charts, dashboards and stories
