@@ -60,7 +60,7 @@ Successfully analyzed all genres in the IMDb dataset, identifying their average 
 
 Most genres showed a strong correlation with the overall average movie rating trend over time, except for the top three highest-rated genres. These genres maintained their popularity over time despite the general downward trend in ratings, as further illustrated in the heatmap.
 
-Another key finding was the evolution of IMDb ratings and movie releases, with a sharp increase in both after IMDb's launch in 1990, followed by a significant decline in the past decade.
+Another key finding was the evolution of IMDb ratings and movie releases, with a sharp increase in both after IMDb's launch in 1990, followed by a significant decline of 60.5% in volume rating in the past decade.
 
 <img src="https://github.com/Zaki978/Project-Portfolio/blob/main/assets/Average%20Ratings%20by%20Genre.png" alt="Distribution of Ratings Histogram" width="700" height="600">
 
