@@ -107,6 +107,11 @@ Another key finding was the evolution of IMDb ratings and movie releases, marked
   - **The Godfather** was the second most highly rated movie with an average rating of 9.2 while being the 8th most rated movie in the dataset. 
 
 ## Assumptions and Caveats
+- **Address Decreasing User Engagement in Ratings**: IMDb should enhance user engagement features, such as personalized rating recommendations and adopt more interactive elements like leaderboards, social sharing, or rating challenges. Potentially gamify their platform, such as by introducing badges or rewards for frequent raters.
+- 
+
+
+## Assumptions and Caveats
 - **Genre Classification**: The project assumes that the genre classification provided by IMDb is accurate, although genre classification can be subjective and open to interpretation. IMDb limits each title to a maximum of three genres, even though a title could belong to more. Furthermore, the dataset includes 28 standardized genres, which, while useful for consistency, is not fully comprehensive and omits certain relevant genres, such as satire.
 - **Ratings Threshold**: The project filters out movies with less than 278 ratings i.e the 75th percentile of the 'Number of Ratings' column. While this threshold helps ensure that only movies with sufficient audience engagement are included, thereby enabling more reliable conclusions, it remains somewhat arbitrary. Adjusting this threshold could influence the analysis and potentially alter the results.
 - **Missing Data**: The project involves dropping rows with missing values in certain columns like 'Release Year' and "Genre", which had 1.4M and 76k missing values, respectively. This could potentially introduce bias if the missingness is not completely random.
