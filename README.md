@@ -106,10 +106,10 @@ Another key finding was the evolution of IMDb ratings and movie releases, marked
   - **The Dark Night** was the second most-rated movie in the dataset, with a total of 2.86M ratings, while having the 4th highest average rating of 9.0.
   - **The Godfather** was the second most highly rated movie with an average rating of 9.2 while being the 8th most rated movie in the dataset. 
 
-## Assumptions and Caveats
+## Suggestions and Recommendations 
 - **Address Decreasing User Engagement in Ratings**: IMDb should enhance user engagement features, such as personalized rating recommendations and adopt more interactive elements like leaderboards, social sharing, or rating challenges. Potentially gamify their platform, such as by introducing badges or rewards for frequent raters.
-- 
-
+- **Improve Rating Systems to Reduce Bias**: since older movies tend to have higher ratings, likely due to selection bias. Consider introducing weighted rating adjustments that account for a number of ratings or separating professional critics from larger audience scores similar to Rotten Tomatoes
+- **Keep Increasing Movie Selection Offering**: ensure that IMDb keeps having the latest movies and TV shows that are current in order to attract a larger scale audience and maintain relevance. Leverage user viewership data to offer personalized recommendations and tailored content experience. Integrate seamlessly with Amazon Prime account to offer dynamic watchlists & smart suggestions.
 
 ## Assumptions and Caveats
 - **Genre Classification**: The project assumes that the genre classification provided by IMDb is accurate, although genre classification can be subjective and open to interpretation. IMDb limits each title to a maximum of three genres, even though a title could belong to more. Furthermore, the dataset includes 28 standardized genres, which, while useful for consistency, is not fully comprehensive and omits certain relevant genres, such as satire.
